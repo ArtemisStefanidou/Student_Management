@@ -7,9 +7,10 @@ int main(int argc,char **argv)
 {
     //Check if user gave a file name at the i/o
 
+//    argv[1] = "artemis.txt";
     if(argc!=2)
     {
-        printf("\n\tΥou have to give also a file name either that already exists or a name of your choice and we will create this file for you\n");
+        printf("\n\tYou have to give also a file name either that already exists or a name of your choice and we will create this file for you\n");
         return 0;
     }
 
@@ -44,7 +45,7 @@ int main(int argc,char **argv)
     {
        
         printMenu();
-        printf("Only one number please.\nΟtherwise it will take the first digit\nof the number as an option\n");
+        printf("Only one number please.\nOtherwise it will take the first digit\nof the number as an option\n");
 
         do 
         {
